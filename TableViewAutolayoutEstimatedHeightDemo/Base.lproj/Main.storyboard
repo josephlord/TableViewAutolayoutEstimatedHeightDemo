@@ -28,25 +28,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="basicCell" id="SPt-TN-yp8">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="basicCell" rowHeight="67" id="SPt-TN-yp8">
+                                <rect key="frame" x="0.0" y="86" width="320" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SPt-TN-yp8" id="9wc-nW-ZqU">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlJ-9N-HMC">
-                                            <rect key="frame" x="139" y="11" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tickBoxCheckedIcon57.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rg3-05-xNX">
+                                            <rect key="frame" x="132" y="5" width="57" height="56"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="57" id="dRU-cU-K1i"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="HlJ-9N-HMC" firstAttribute="top" secondItem="9wc-nW-ZqU" secondAttribute="top" constant="11" id="3Bw-B0-Poo"/>
-                                        <constraint firstAttribute="centerX" secondItem="HlJ-9N-HMC" secondAttribute="centerX" id="cJQ-uI-Tve"/>
-                                        <constraint firstAttribute="bottom" secondItem="HlJ-9N-HMC" secondAttribute="bottom" constant="11" id="yHR-qQ-an9"/>
+                                        <constraint firstAttribute="centerX" secondItem="Rg3-05-xNX" secondAttribute="centerX" id="7Ly-TF-AWL"/>
+                                        <constraint firstAttribute="centerX" secondItem="Rg3-05-xNX" secondAttribute="centerX" id="ROE-6u-exw"/>
+                                        <constraint firstItem="Rg3-05-xNX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9wc-nW-ZqU" secondAttribute="top" constant="5" id="Rjc-46-Oky"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Rg3-05-xNX" secondAttribute="bottom" constant="5" id="lut-0K-Rdg"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -63,6 +64,9 @@
             <point key="canvasLocation" x="158" y="34"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tickBoxCheckedIcon57.png" width="57" height="57"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

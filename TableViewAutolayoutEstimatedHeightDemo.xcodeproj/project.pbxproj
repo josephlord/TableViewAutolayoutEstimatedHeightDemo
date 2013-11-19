@@ -21,6 +21,7 @@
 		BE0893B8183BF58A0065FEB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0893B6183BF58A0065FEB9 /* InfoPlist.strings */; };
 		BE0893BA183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0893B9183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m */; };
 		BE0893C5183BF7090065FEB9 /* HFEstimateHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0893C4183BF7090065FEB9 /* HFEstimateHeightViewController.m */; };
+		BE2D6118183C06AA0027363B /* tickBoxCheckedIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2D6117183C06AA0027363B /* tickBoxCheckedIcon57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BE0893B9183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAutolayoutEstimatedHeightDemoTests.m; sourceTree = "<group>"; };
 		BE0893C3183BF7090065FEB9 /* HFEstimateHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFEstimateHeightViewController.h; sourceTree = "<group>"; };
 		BE0893C4183BF7090065FEB9 /* HFEstimateHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFEstimateHeightViewController.m; sourceTree = "<group>"; };
+		BE2D6117183C06AA0027363B /* tickBoxCheckedIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickBoxCheckedIcon57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		BE089395183BF58A0065FEB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE2D6117183C06AA0027363B /* tickBoxCheckedIcon57.png */,
 				BE089396183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemo-Info.plist */,
 				BE089397183BF58A0065FEB9 /* InfoPlist.strings */,
 				BE08939A183BF58A0065FEB9 /* main.m */,
@@ -232,6 +235,7 @@
 				BE0893A7183BF58A0065FEB9 /* Images.xcassets in Resources */,
 				BE089399183BF58A0065FEB9 /* InfoPlist.strings in Resources */,
 				BE0893A2183BF58A0065FEB9 /* Main.storyboard in Resources */,
+				BE2D6118183C06AA0027363B /* tickBoxCheckedIcon57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +465,7 @@
 				BE0893BF183BF58A0065FEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0893C0183BF58A0065FEB9 /* Build configuration list for PBXNativeTarget "TableViewAutolayoutEstimatedHeightDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				BE0893C2183BF58A0065FEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
