@@ -17,7 +17,7 @@
 -(void)insertCell
 {
     _cellCount++;
-    NSIndexPath * newPath = [NSIndexPath indexPathForRow:_cellCount - 1 inSection:0];
+    NSIndexPath * newPath = [NSIndexPath indexPathForRow:1 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[newPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
@@ -33,7 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _cellCount = 0;
+    _cellCount = 1;
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -44,7 +44,12 @@
 
 -(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 40;
+    return 100;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 67;
 }
 
 - (void)didReceiveMemoryWarning
