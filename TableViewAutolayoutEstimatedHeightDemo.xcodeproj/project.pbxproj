@@ -14,13 +14,13 @@
 		BE08939B183BF58A0065FEB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE08939A183BF58A0065FEB9 /* main.m */; };
 		BE08939F183BF58A0065FEB9 /* HFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE08939E183BF58A0065FEB9 /* HFAppDelegate.m */; };
 		BE0893A2183BF58A0065FEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0893A0183BF58A0065FEB9 /* Main.storyboard */; };
-		BE0893A5183BF58A0065FEB9 /* HFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0893A4183BF58A0065FEB9 /* HFViewController.m */; };
 		BE0893A7183BF58A0065FEB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0893A6183BF58A0065FEB9 /* Images.xcassets */; };
 		BE0893AE183BF58A0065FEB9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0893AD183BF58A0065FEB9 /* XCTest.framework */; };
 		BE0893AF183BF58A0065FEB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE08938E183BF58A0065FEB9 /* Foundation.framework */; };
 		BE0893B0183BF58A0065FEB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE089392183BF58A0065FEB9 /* UIKit.framework */; };
 		BE0893B8183BF58A0065FEB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0893B6183BF58A0065FEB9 /* InfoPlist.strings */; };
 		BE0893BA183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0893B9183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m */; };
+		BE0893C5183BF7090065FEB9 /* HFEstimateHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0893C4183BF7090065FEB9 /* HFEstimateHeightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		BE08939D183BF58A0065FEB9 /* HFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFAppDelegate.h; sourceTree = "<group>"; };
 		BE08939E183BF58A0065FEB9 /* HFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFAppDelegate.m; sourceTree = "<group>"; };
 		BE0893A1183BF58A0065FEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE0893A3183BF58A0065FEB9 /* HFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFViewController.h; sourceTree = "<group>"; };
-		BE0893A4183BF58A0065FEB9 /* HFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFViewController.m; sourceTree = "<group>"; };
 		BE0893A6183BF58A0065FEB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE0893AC183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAutolayoutEstimatedHeightDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0893AD183BF58A0065FEB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE0893B5183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewAutolayoutEstimatedHeightDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BE0893B7183BF58A0065FEB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE0893B9183BF58A0065FEB9 /* TableViewAutolayoutEstimatedHeightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAutolayoutEstimatedHeightDemoTests.m; sourceTree = "<group>"; };
+		BE0893C3183BF7090065FEB9 /* HFEstimateHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFEstimateHeightViewController.h; sourceTree = "<group>"; };
+		BE0893C4183BF7090065FEB9 /* HFEstimateHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFEstimateHeightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				BE08939D183BF58A0065FEB9 /* HFAppDelegate.h */,
 				BE08939E183BF58A0065FEB9 /* HFAppDelegate.m */,
 				BE0893A0183BF58A0065FEB9 /* Main.storyboard */,
-				BE0893A3183BF58A0065FEB9 /* HFViewController.h */,
-				BE0893A4183BF58A0065FEB9 /* HFViewController.m */,
+				BE0893C3183BF7090065FEB9 /* HFEstimateHeightViewController.h */,
+				BE0893C4183BF7090065FEB9 /* HFEstimateHeightViewController.m */,
 				BE0893A6183BF58A0065FEB9 /* Images.xcassets */,
 				BE089395183BF58A0065FEB9 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0893A5183BF58A0065FEB9 /* HFViewController.m in Sources */,
 				BE08939F183BF58A0065FEB9 /* HFAppDelegate.m in Sources */,
 				BE08939B183BF58A0065FEB9 /* main.m in Sources */,
+				BE0893C5183BF7090065FEB9 /* HFEstimateHeightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

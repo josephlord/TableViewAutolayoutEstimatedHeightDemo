@@ -1,5 +1,5 @@
 //
-//  HFViewController.h
+//  HFEstimateHeightViewController.h
 //  TableViewAutolayoutEstimatedHeightDemo
 //
 //  Created by Joseph on 19/11/2013.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HFViewController : UIViewController
-
+@interface HFEstimateHeightViewController : UITableViewController
+{
+    NSUInteger _cellCount;
+}
+-(void)insertCell;
 @end
