@@ -12,5 +12,5 @@
 {
     NSUInteger _cellCount;
 }
--(void)insertCell;
+
 @end
